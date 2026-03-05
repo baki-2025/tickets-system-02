@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "User unable to login with correct credentials",
+    "customer": "John Doe",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "2025-09-25"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway error",
+    "description": "Transaction failed during checkout process",
+    "customer": "Sarah Khan",
+    "priority": "Critical priority",
+    "status": "In Progress",
+    "createdAt": "2025-09-24"
+  },
+  {
+    "id": 3,
+    "title": "UI bug on dashboard",
+    "description": "Graph not displaying correctly on mobile view",
+    "customer": "Michael Smith",
+    "priority": "Medium priority",
+    "status": "Resolved",
+    "createdAt": "2025-09-23"
+  },
+  {
+    "id": 4,
+    "title": "Feature request",
+    "description": "Customer requesting dark mode support",
+    "customer": "Emily Davis",
+    "priority": "Low priority",
+    "status": "Pending",
+    "createdAt": "2025-09-22"
+  },
+  {
+    "id": 5,
+    "title": "Email not sending",
+    "description": "Automated emails not reaching customers",
+    "customer": "David Lee",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "2025-09-21"
+  },
+  {
+    "id": 6,
+    "title": "Mobile app crash",
+    "description": "App crashes when accessing settings page",
+    "customer": "Aisha Rahman",
+    "priority": "Critical priority",
+    "status": "In Progress",
+    "createdAt": "2025-09-20"
+  },
+  {
+    "id": 7,
+    "title": "Slow website loading",
+    "description": "Home page taking too long to load",
+    "customer": "Carlos Mendoza",
+    "priority": "Medium priority",
+    "status": "Open",
+    "createdAt": "2025-09-19"
+  },
+  {
+    "id": 8,
+    "title": "Password reset issue",
+    "description": "Password reset email not received",
+    "customer": "Sophia Brown",
+    "priority": "High priority",
+    "status": "Resolved",
+    "createdAt": "2025-09-18"
+  },
+  {
+    "id": 9,
+    "title": "Database error",
+    "description": "Intermittent database connection failure",
+    "customer": "Mark Wilson",
+    "priority": "Critical priority",
+    "status": "In Progress",
+    "createdAt": "2025-09-17"
+  },
+  {
+    "id": 10,
+    "title": "Billing discrepancy",
+    "description": "Customer charged twice for subscription",
+    "customer": "Olivia Green",
+    "priority": "High priority",
+    "status": "Pending",
+    "createdAt": "2025-09-16"
+  }
+  
+]
