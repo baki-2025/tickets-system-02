@@ -7,11 +7,11 @@ export default function TaskStatus({ tasks, resolved, onComplete }) {
           <p className="text-sm text-gray-500">No tasks in progress</p>
         ) : (
           tasks.map((task) => (
-            <div key={task.idt} className="flex justify-between items-center border-b py-2">
+            <div key={task.id} className="flex justify-between items-center border-b py-2">
               <span>{task.title}</span> 
               <button
                 onClick={() => onComplete(task.id)}
-                className="bg-green-500 text-white px-3 py-1  rounded-full w-full text-sm"
+                className="bg-green-500 text-white px-3 py-1  rounded-full w-full text-sm object-cover"
               >
                 Complete
               </button>
