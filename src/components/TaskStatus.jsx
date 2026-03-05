@@ -7,31 +7,27 @@ export default function TaskStatus({ tasks, resolved, onComplete }) {
           <p className="text-sm text-gray-500">No tasks in progress</p>
         ) : (
           tasks.map((task) => (
-            <div key={task.id} className="flex justify-between items-center border-b py-2">
-              <span>{task.title}</span> 
+            <div key={task.id} className="flex flex-col border-b py-2 gap-2">
+              <span className="font-medium">{task.title}</span>
               <button
                 onClick={() => onComplete(task.id)}
-                className="bg-green-500 text-white px-3 py-1  rounded-full w-full text-sm object-cover"
+                className="bg-green-500 text-white px-3 py-1 rounded-full text-sm w-max"
               >
                 Complete
               </button>
-              
-             </div>
-            
+            </div>
           ))
         )}
       </div>
 
       <div>
         <h2 className="font-bold text-black text-2xl mb-3">Resolved Tasks</h2>
-        
         {resolved.length === 0 ? (
           <p className="text-sm text-gray-700">No resolved tickets yet</p>
         ) : (
           resolved.map((ticket) => (
-            <div key={ticket.id} className="flex justify-between items-center border-b py-2 text-green-700 gap-2">
+            <div key={ticket.id} className="flex flex-col border-b py-2 gap-2 text-green-700">
               <span>{ticket.title}</span>
-              
             </div>
           ))
         )}
