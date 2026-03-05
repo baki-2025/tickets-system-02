@@ -6,7 +6,7 @@ export default function TicketCard({ ticket }) {
   };
 
   return (
-    <div className="border rounded p-4 shadow  bg-[url('/img/vector2.png')] bg-cover bg-center  ">
+    <div className="lg-rounded p-4 shadow  bg-[url('/img/vector2.png')] bg-cover bg-center  ">
       <div className="bg-yellow-50 grid grid-cols-1 md:grid-cols-2 gap-2">
         
         

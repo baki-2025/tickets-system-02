@@ -1,7 +1,7 @@
 ## 1. What is JSX, and why is it used?
 Answer:-
-**JSX (JavaScript XML)** is a syntax extension for JavaScript that allows us to write HTML-like code inside JavaScript.  
-It makes the code more **readable and declarative**, as UI structures look similar to HTML.
+JSX (JavaScript XML) is a syntax extension for JavaScript that allows us to write HTML-like code inside JavaScript.  
+It makes the code more readable and declarative, as UI structures look similar to HTML.
 - Example:
   ```jsx
   const element = <h1>Hello, World!</h1>;
@@ -9,11 +9,9 @@ It makes the code more **readable and declarative**, as UI structures look simil
   -Improves readability and maintainability.
   -Makes it easier to write UI elements directly with logic.
   -Helps detect errors during compilation.
-
-  2. What is the difference between State and Props?
-   Answer:-
-Definition- State is a	Internal data of a component. On the other hand, Props is a	
-External data passed to a component
+2. What is the difference between State and Props?
+Answer:-
+Definition- State is a	Internal data of a component. On the other hand, Props is a	External data passed to a component
 Mutability-State Mutable (can change using setState or hooks) 	 and
  Props Immutable (read-only)
 Ownership-State is 	Owned and managed by the component itself and Props is
@@ -29,7 +27,7 @@ const [count, setCount] = useState(0);
 count → the current state value.
 setCount → a function to update the state.
 useState(0) → initializes the state with value 0.
-✅ Every time setCount is called, React re-renders the component with the updated state.
+*Every time setCount is called, React re-renders the component with the updated state.
 
 4. How can you share state between components in React?
 Answer:-
